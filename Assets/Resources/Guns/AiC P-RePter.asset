@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74fae27528bc04e43990d06c1407562c, type: 3}
+  m_Name: AiC P-RePter
+  m_EditorClassIdentifier: 
+  nameID: P-RePter
+  pickup: {fileID: 4268002592898267378, guid: 51669eea1cfde2d4893430e170e6e381, type: 3}
+  held: {fileID: 8407900122918573321, guid: 2f1c50bb00d3bd543bd45e6363e7e670, type: 3}
+  inventoryCost: 2
+  equipSound: {fileID: 0}
+  reloadSound: {fileID: 8300000, guid: c2a728c41000f6a44a7e36d92f6820f0, type: 3}
+  chamberSound: {fileID: 8300000, guid: 58a8293dd3a96d14fa1bdd206c3d05ba, type: 3}
+  dryFireSound: {fileID: 8300000, guid: c3258892d074fef45b742810368c6075, type: 3}
+  firetype: 2
+  magSize: 42
+  chargeTime: 0.1
+  reloadTime: 1.5
+  burstTime: 0.04761905
+  burst:
+  - {fileID: 11400000, guid: 614d18f7807a9584791442a077c37ac8, type: 2}

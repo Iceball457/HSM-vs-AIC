@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4958542469419939294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4958542469419939295}
+  - component: {fileID: 4958542469419939292}
+  m_Layer: 0
+  m_Name: Deathmatch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4958542469419939295
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4958542469419939294}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4958542469419939292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4958542469419939294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a97307df0c764d4c8d736d0464ebeeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameRunning: 0
+  pointsToWin: 20
+  respawnDelay: 3
+  postGameTime: 7
+  targetDistanceToSpawn: 30
+  respawnPoints: []
+  powerWeapons:
+  - {fileID: 11400000, guid: caa3809b2fef75140b86c737b2e49e79, type: 2}
+  - {fileID: 11400000, guid: 00a7570f6a00d5b468cc050f4ac54a3c, type: 2}
+  primaries:
+  - {fileID: 11400000, guid: a01ca12a038e28a449743e1584420667, type: 2}
+  - {fileID: 11400000, guid: f7474e0277e356c498671e5e44deb255, type: 2}
+  - {fileID: 11400000, guid: 3c678226d1d583641956adfcad968c99, type: 2}
+  sidearms:
+  - {fileID: 11400000, guid: 5268ee0918623b24cbe52f8faea47263, type: 2}
+  - {fileID: 11400000, guid: 1388e983742bcb84eb7cc98e9649fd9f, type: 2}
+  lightArmors:
+  - {fileID: 11400000, guid: 25043e11a34ccb940960f5d24c39eb76, type: 2}
+  midArmors:
+  - {fileID: 11400000, guid: 361afa746c029ec4296e8562be40f2be, type: 2}
+  heavyArmors:
+  - {fileID: 11400000, guid: 62c0d2e5372e78047b7c40d7dd93b9b3, type: 2}
+  shields:
+  - {fileID: 11400000, guid: 404ea611a7a053d44a5de72ae424398f, type: 2}
+  - {fileID: 11400000, guid: 1e035b9103853f941acce6b16cf46f45, type: 2}
+  - {fileID: 11400000, guid: 40f56f87c4fddd84ca73c7168b67496c, type: 2}
+  - {fileID: 11400000, guid: f0285997e6ff1514c8297f4a2efe2736, type: 2}
+  grenades:
+  - {fileID: 11400000, guid: 1458c1c4e3abd384ba50eaf7da16e4dc, type: 2}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7372e570126c92f418355d459869f744, type: 3}
+  m_Name: HSM Duress
+  m_EditorClassIdentifier: 
+  armorRating: 60
+  moveSpeed: 5
+  sneakSpeed: 2.5
+  fullUnequipOther: 1
+  fullUnequipThis: 1
+  helmetPrefab: {fileID: 1519772996767383966, guid: ac577c3289d6f3141af30a652ac0b232,
+    type: 3}
+  chestPrefab: {fileID: 0}
+  waistPrefab: {fileID: 0}
+  leftUpperArmPrefab: {fileID: 3249327500316924312, guid: 6e027a692b6641e4e84f352481dc4186,
+    type: 3}
+  rightUpperArmPrefab: {fileID: 6353974182236476204, guid: 32ae3f4bf328cab4fa917197284b2135,
+    type: 3}
+  leftForearmPrefab: {fileID: 0}
+  rightForearmPrefab: {fileID: 0}
+  leftThighPrefab: {fileID: 0}
+  rightThighPrefab: {fileID: 0}
+  leftShinPrefab: {fileID: 0}
+  rightShinPrefab: {fileID: 0}

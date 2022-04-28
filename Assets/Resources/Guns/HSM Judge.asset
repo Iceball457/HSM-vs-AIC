@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74fae27528bc04e43990d06c1407562c, type: 3}
+  m_Name: HSM Judge
+  m_EditorClassIdentifier: 
+  nameID: HSM Judge
+  pickup: {fileID: 3454070980316484734, guid: 998bc69e6ddb3524cb89297dce99555f, type: 3}
+  held: {fileID: 3821961811994595197, guid: 761bbb9539be38b4bb8aeec854da46c3, type: 3}
+  inventoryCost: 2
+  equipSound: {fileID: 0}
+  reloadSound: {fileID: 8300000, guid: 7e05d4737cc12994eb4165b80e12d5c8, type: 3}
+  chamberSound: {fileID: 8300000, guid: b64e79073eb5b214086afe99a635f5f4, type: 3}
+  dryFireSound: {fileID: 8300000, guid: a8ec9255b084e7046abfceb795bee832, type: 3}
+  firetype: 2
+  magSize: 32
+  chargeTime: 0.3
+  reloadTime: 1.5
+  burstTime: 0.065
+  burst:
+  - {fileID: 11400000, guid: ce9d69232062c384fa67bbbd09d61b6a, type: 2}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c2d8a022613704eb850348a6919205, type: 3}
+  m_Name: AiC Plaque 1
+  m_EditorClassIdentifier: 
+  muzzle: {x: 0, y: 0.753, z: 0.15}
+  shots: 1
+  damagePerShot: 65
+  maxBonusDamagePerShot: 20
+  armorPenetration: 0.65
+  shieldPenetration: 0.2
+  shotSound: {fileID: 8300000, guid: 523fbfcb25a64cd45b5c16768ea6977a, type: 3}
+  shotColor: {r: 1, g: 1, b: 0.19607843, a: 0}
+  shotSpeed: 200
+  recoil: {x: 0, y: 1.5}
+  recoilRandomness: {x: 0.3, y: 0.3}
+  inaccuracy: 0.15915515
+  bloom: 3

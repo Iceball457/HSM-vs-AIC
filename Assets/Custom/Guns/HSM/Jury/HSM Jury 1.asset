@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c2d8a022613704eb850348a6919205, type: 3}
+  m_Name: HSM Jury 1
+  m_EditorClassIdentifier: 
+  muzzle: {x: 0, y: 0.61, z: 0.102}
+  shots: 15
+  damagePerShot: 15
+  maxBonusDamagePerShot: 10
+  armorPenetration: 0
+  shieldPenetration: 0
+  shotSound: {fileID: 8300000, guid: 1b3e2488f0678db4b81ef45eb94110cc, type: 3}
+  shotColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0}
+  shotSpeed: 75
+  recoil: {x: 0, y: 1.85}
+  recoilRandomness: {x: 1.12, y: 0.5}
+  inaccuracy: 1.65
+  bloom: 7.5

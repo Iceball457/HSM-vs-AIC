@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74fae27528bc04e43990d06c1407562c, type: 3}
+  m_Name: AiC Plaque
+  m_EditorClassIdentifier: 
+  nameID: AiC Plaque
+  pickup: {fileID: 5513208038074647934, guid: 5a329af784fb7c34aaff886bf09d8ebc, type: 3}
+  held: {fileID: 6488329372346277241, guid: 29463e66c9101a24b942541b67d5b766, type: 3}
+  inventoryCost: 1
+  equipSound: {fileID: 0}
+  reloadSound: {fileID: 8300000, guid: f298581e6cc87d540944a3a5a06eccb6, type: 3}
+  chamberSound: {fileID: 8300000, guid: d46035aedf1c3414bbf7180a6053ee50, type: 3}
+  dryFireSound: {fileID: 8300000, guid: a8ec9255b084e7046abfceb795bee832, type: 3}
+  firetype: 1
+  magSize: 10
+  chargeTime: 0.25
+  reloadTime: 1.1
+  burstTime: 0.175
+  burst:
+  - {fileID: 11400000, guid: 757b11664288e3f4984687878c083042, type: 2}

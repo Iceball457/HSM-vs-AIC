@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c2d8a022613704eb850348a6919205, type: 3}
+  m_Name: HSM Judge 1
+  m_EditorClassIdentifier: 
+  muzzle: {x: 0, y: 0.625, z: 0.125}
+  shots: 1
+  damagePerShot: 45
+  maxBonusDamagePerShot: 10
+  armorPenetration: 0.4
+  shieldPenetration: 0.15
+  shotSound: {fileID: 8300000, guid: 72e3f8f1656633640a7a3f4b66faae3c, type: 3}
+  shotColor: {r: 1, g: 1, b: 0.54901963, a: 0}
+  shotSpeed: 300
+  recoil: {x: 0, y: 0.55}
+  recoilRandomness: {x: 0.435, y: 0.1}
+  inaccuracy: 0.09
+  bloom: 1

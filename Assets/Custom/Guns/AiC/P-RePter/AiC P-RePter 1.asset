@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c2d8a022613704eb850348a6919205, type: 3}
+  m_Name: AiC P-RePter 1
+  m_EditorClassIdentifier: 
+  muzzle: {x: 0, y: 0.341, z: 0}
+  shots: 1
+  damagePerShot: 15
+  maxBonusDamagePerShot: 5
+  armorPenetration: 0
+  shieldPenetration: 1
+  shotSound: {fileID: 8300000, guid: f85cfdc80edf31d42a303ca667ddb1d2, type: 3}
+  shotColor: {r: 1, g: 0, b: 0, a: 0}
+  shotSpeed: 50
+  recoil: {x: 0, y: 0.35}
+  recoilRandomness: {x: 0.325, y: 0.075}
+  inaccuracy: 0.5
+  bloom: 0.5

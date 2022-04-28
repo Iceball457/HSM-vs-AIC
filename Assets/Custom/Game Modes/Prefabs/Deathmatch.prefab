@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3823981460339827862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3547863744948162018}
+  - component: {fileID: 1854999126195326012}
+  m_Layer: 0
+  m_Name: Deathmatch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3547863744948162018
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3823981460339827862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1854999126195326012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3823981460339827862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d7f95a64f12b14caa8279f700027e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameRunning: 0
+  pointsToWin: 20
+  respawnDelay: 3
+  postGameTime: 7
+  targetDistanceToSpawn: 30
+  respawnPoints: []
+  startingLoadout:
+  - {fileID: 11400000, guid: f7474e0277e356c498671e5e44deb255, type: 2}
+  - {fileID: 11400000, guid: 5268ee0918623b24cbe52f8faea47263, type: 2}
+  startingArmor: {fileID: 0}
+  startingShield: {fileID: 0}
+  startingGrenade: {fileID: 11400000, guid: 1458c1c4e3abd384ba50eaf7da16e4dc, type: 2}

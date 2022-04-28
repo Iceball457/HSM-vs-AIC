@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74fae27528bc04e43990d06c1407562c, type: 3}
+  m_Name: HSM BABR
+  m_EditorClassIdentifier: 
+  nameID: 
+  pickup: {fileID: 0}
+  held: {fileID: 8316615070689329145, guid: 2dfa0d4a503e8874a806021d4242724d, type: 3}
+  inventoryCost: 2
+  equipSound: {fileID: 0}
+  reloadSound: {fileID: 8300000, guid: 866a6dc4ba8d18c4bbe17337172f6119, type: 3}
+  chamberSound: {fileID: 8300000, guid: 320c2e97b68d43e4ca55dffcb4f74f13, type: 3}
+  dryFireSound: {fileID: 8300000, guid: a8ec9255b084e7046abfceb795bee832, type: 3}
+  firetype: 0
+  magSize: 24
+  chargeTime: 0.55
+  reloadTime: 1
+  burstTime: 0.05
+  burst:
+  - {fileID: 11400000, guid: da88b662117ecb84d9dc0d25c7081a4b, type: 2}
+  - {fileID: 11400000, guid: 7fe8d60ca8d142a45973c4d9c47dbe9e, type: 2}
+  - {fileID: 11400000, guid: bd7859295201b5b47b9774c756b52404, type: 2}
